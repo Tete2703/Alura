@@ -1,8 +1,36 @@
+<meta charset='UTF-8'>
 <script>
 
-document.write("Flávio nasceu em:" + (2016-39));
-document.write("<br>");
-document.write("Joaquim nasceu em:" + (2016-20));
-document.write("<br>");
+	//var ano = 2016
+
+//document.write("Flávio tem:" + (ano-1977) + " anos");
+//document.write("<br>");
+//document.write("Joaquim tem:" + (ano-1996) + " anos");
+//document.write("<br>");
+//document.write("Barney tem:" + (ano-1976) + " anos");
+
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+	}
+
+	var minhaIdade = 70
+	var idadeIrma = 40
+	var resultado = minhaIdade - idadeIrma
+
+	mostra("Nossa diferença de idade é: " + ( resultado))
+	pulaLinha()
+
+
+	var mediaParaFilhos = 28
+	var anoAtual = 2023
+	var quantasGeracoesPassadas = (anoAtual-1500) / mediaParaFilhos
+
+	mostra(quantasGeracoesPassadas) 
+	pulaLinha()
 
 </script>
